@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #a4dee6;
+}
+
+#weatherDisplay {                   
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color:black;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}

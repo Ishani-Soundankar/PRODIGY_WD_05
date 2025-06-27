@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h2> Ishani welcomes you to the </h2>
+     <h1>Weather App</h1>
+     <input type="text" id="cityInput" placeholder="Enter a city name">
+     <button onclick="getWeather()">Get Weather</button>      <!--when get weather button will be clicked it will call a function getweather() that is written in javascript--> 
+     <div id="weatherDisplay"></div>      <!-- this seperate id will display all information in the white space below-->
+
+     <script src="config.js"></script>          <!--loads api key-->
+     <script src="script.js"></script>          <!--once all the html part is loaded completely then we have called script.js-->
+</body>
+</html>
+
