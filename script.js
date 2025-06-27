@@ -1,5 +1,3 @@
-
-
 //----- Async/Await with Fetch----//
 async function getWeather() {
     //----Template Literals and Const ------//
