@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="2style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <p class="instructions">
+      Use the buttons below to start, pause, reset, or record lap times. You can also press:
+      <br />
+      <strong>Spacebar</strong> – Start/Pause &nbsp; | &nbsp;
+      <strong>L</strong> –  &nbsp; | &nbsp;
+      <strong>R</strong> – Reset
+    </p>
+
+    <div class="timer" id="display">00:00.000</div>
+
+    <div class="buttons">
+      <button id="startPause">Start</button>
+      <button id="lap">Lap</button>
+      <button id="reset">Reset</button>
+      <button id="toggleTheme">🌙</button>
+    </div>
+
+    <ul id="laps" class="laps-list"></ul>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Stopwatch Web Application by Ishani | Built with HTML, CSS & Javascript for practice. 
+  </footer>
+
+  <script src="2script.js"></script>
+</body>
+</html>
